@@ -35,7 +35,7 @@ export function ContactSection() {
             required
             value={formData.nome}
             onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
-            className="w-full px-4 py-3 border border-[#e2e8f0] rounded text-sm text-[#0a0a2e] placeholder:text-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2962ff] focus:border-transparent bg-white"
+            className="w-full px-4 py-3 border border-[#e2e8f0] rounded-[40px] text-sm text-[#0a0a2e] placeholder:text-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2962ff] focus:border-transparent bg-white"
           />
           <input
             type="email"
@@ -43,7 +43,7 @@ export function ContactSection() {
             required
             value={formData.email}
             onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-            className="w-full px-4 py-3 border border-[#e2e8f0] rounded text-sm text-[#0a0a2e] placeholder:text-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2962ff] focus:border-transparent bg-white"
+            className="w-full px-4 py-3 border border-[#e2e8f0] rounded-[40px] text-sm text-[#0a0a2e] placeholder:text-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2962ff] focus:border-transparent bg-white"
           />
           <input
             type="tel"
@@ -51,12 +51,12 @@ export function ContactSection() {
             required
             value={formData.telefone}
             onChange={(e) => setFormData({ ...formData, telefone: e.target.value })}
-            className="w-full px-4 py-3 border border-[#e2e8f0] rounded text-sm text-[#0a0a2e] placeholder:text-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2962ff] focus:border-transparent bg-white"
+            className="w-full px-4 py-3 border border-[#e2e8f0] rounded-[40px] text-sm text-[#0a0a2e] placeholder:text-[#94a3b8] focus:outline-none focus:ring-2 focus:ring-[#2962ff] focus:border-transparent bg-white"
           />
 
           <button
             type="submit"
-            className="inline-flex items-center justify-center gap-2 bg-[#2962ff] text-white font-bold px-6 py-3 rounded text-sm hover:bg-[#1a237e] transition-colors mx-auto"
+            className="inline-flex items-center justify-center gap-2 bg-[#2962ff] text-white font-bold px-6 py-3 rounded-[40px] text-sm hover:bg-[#1a237e] transition-colors mx-auto"
           >
             {submitted ? "ENVIADO COM SUCESSO!" : "FALE COM ESPECIALISTA"}
             <ChevronRight className="h-4 w-4" />

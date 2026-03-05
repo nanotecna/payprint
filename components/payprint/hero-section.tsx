@@ -31,7 +31,7 @@ export function HeroSection() {
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
                 href="#contato"
-                className="inline-flex items-center justify-center gap-2 bg-white text-[#1a237e] font-bold px-6 py-3 rounded text-sm hover:bg-blue-50 transition-colors"
+                className="inline-flex items-center justify-center gap-2 bg-white text-[#1a237e] font-bold px-6 py-3 rounded-[40px] text-sm hover:bg-blue-50 transition-colors"
               >
                 FALE COM UM CONSULTOR
                 <ChevronRight className="h-4 w-4" />

@@ -31,13 +31,13 @@ export function Navbar() {
           </a>
           <a
             href="#contato"
-            className="text-sm font-bold bg-[#2962ff] text-white px-5 py-2 rounded hover:bg-[#1a237e] transition-colors"
+            className="text-sm font-bold bg-[#2962ff] text-white px-5 py-2 rounded-[40px] hover:bg-[#1a237e] transition-colors"
           >
             ENTRE EM CONTATO
           </a>
           <a
             href="#"
-            className="text-sm font-bold text-[#0a0a2e] border-2 border-[#0a0a2e] px-5 py-2 rounded hover:bg-[#0a0a2e] hover:text-white transition-colors"
+            className="text-sm font-bold text-[#0a0a2e] border-2 border-[#0a0a2e] px-5 py-2 rounded-[40px] hover:bg-[#0a0a2e] hover:text-white transition-colors"
           >
             ACESSO AOS FRANQUEADOS
           </a>
@@ -64,14 +64,14 @@ export function Navbar() {
           </a>
           <a
             href="#contato"
-            className="text-sm font-bold bg-[#2962ff] text-white px-5 py-2 rounded text-center"
+            className="text-sm font-bold bg-[#2962ff] text-white px-5 py-2 rounded-[40px] text-center"
             onClick={() => setIsOpen(false)}
           >
             ENTRE EM CONTATO
           </a>
           <a
             href="#"
-            className="text-sm font-bold text-[#0a0a2e] border-2 border-[#0a0a2e] px-5 py-2 rounded text-center"
+            className="text-sm font-bold text-[#0a0a2e] border-2 border-[#0a0a2e] px-5 py-2 rounded-[40px] text-center"
             onClick={() => setIsOpen(false)}
           >
             ACESSO AOS FRANQUEADOS

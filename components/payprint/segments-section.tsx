@@ -42,7 +42,7 @@ export function SegmentsSection() {
 
         <a
           href="#contato"
-          className="inline-flex items-center gap-2 border-2 border-[#0a0a2e] text-[#0a0a2e] font-bold px-6 py-3 rounded text-sm hover:bg-[#0a0a2e] hover:text-white transition-colors"
+          className="inline-flex items-center gap-2 border-2 border-[#0a0a2e] text-[#0a0a2e] font-bold px-6 py-3 rounded-[40px] text-sm hover:bg-[#0a0a2e] hover:text-white transition-colors"
         >
           SAIBA QUEM SAO NOSSOS PARCEIROS
           <ChevronRight className="h-4 w-4" />
