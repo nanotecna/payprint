@@ -1,4 +1,5 @@
 import { Phone } from "lucide-react"
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -7,22 +8,13 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Logo & Description */}
           <div>
-            <svg viewBox="0 0 180 40" className="h-8 w-auto mb-4" aria-label="PayPrint">
-              <rect x="0" y="4" width="32" height="32" rx="6" fill="#2962ff" />
-              <text x="7" y="28" fill="white" fontWeight="bold" fontSize="22" fontFamily="sans-serif">
-                P
-              </text>
-              <circle cx="24" cy="12" r="4" fill="white" opacity="0.5" />
-              <text x="38" y="19" fill="white" fontWeight="800" fontSize="16" fontFamily="sans-serif">
-                Pay
-              </text>
-              <text x="68" y="19" fill="#2962ff" fontWeight="800" fontSize="16" fontFamily="sans-serif">
-                Print
-              </text>
-              <text x="38" y="32" fill="#94a3b8" fontSize="7" fontFamily="sans-serif">
-                {'gráfica para franquias'}
-              </text>
-            </svg>
+            <Image
+              src="/images/payprint-logo-white.png"
+              alt="PayPrint - Gráfica para Franquias"
+              width={180}
+              height={48}
+              className="h-10 w-auto mb-4"
+            />
             <p className="text-sm text-blue-200 leading-relaxed max-w-xs">
               A solução completa para redes de franquias. Padronização, qualidade e logística inteligente.
             </p>
