@@ -1,16 +1,18 @@
+import Image from "next/image"
+
 export function FeaturesSection() {
   return (
     <section className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4">
         {/* Logo center */}
         <div className="flex justify-center mb-12">
-          <svg viewBox="0 0 50 50" className="h-12 w-12" aria-label="PayPrint">
-            <rect width="50" height="50" rx="10" fill="#1a237e" />
-            <text x="10" y="34" fill="white" fontWeight="bold" fontSize="28" fontFamily="sans-serif">
-              P
-            </text>
-            <circle cx="38" cy="14" r="6" fill="#2962ff" />
-          </svg>
+          <Image
+            src="/images/payprint-icon.png"
+            alt="PayPrint"
+            width={48}
+            height={48}
+            className="h-12 w-auto"
+          />
         </div>
 
         <div className="grid md:grid-cols-2 gap-12">
