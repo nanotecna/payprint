@@ -4,16 +4,14 @@ import { ChevronRight } from "lucide-react"
 export function HeroSection() {
   return (
     <section className="relative bg-[#0a0a2e] overflow-hidden">
-      {/* Dot pattern overlay */}
-      <div className="absolute inset-0 opacity-10">
-        <div
-          className="absolute inset-0"
-          style={{
-            backgroundImage: "radial-gradient(circle, #2962ff 1px, transparent 1px)",
-            backgroundSize: "20px 20px",
-          }}
-        />
-      </div>
+      {/* Background pattern image */}
+      <Image
+        src="/images/hero-pattern.png"
+        alt=""
+        fill
+        className="object-cover opacity-60"
+        priority
+      />
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="grid md:grid-cols-2 gap-8 items-center min-h-[500px] py-16">
