@@ -13,10 +13,10 @@ export function HeroSection() {
         priority
       />
 
-      <div className="max-w-7xl mx-auto px-4 relative z-10">
-        <div className="grid md:grid-cols-2 gap-8 items-center min-h-[500px] py-16">
+      <div className="max-w-7xl mx-auto pl-4 pr-0 sm:pl-6 lg:pl-8 relative z-10">
+        <div className="grid md:grid-cols-2 gap-8 items-end min-h-[500px]">
           {/* Text Content */}
-          <div className="text-white">
+          <div className="text-white py-16 pr-4">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-balance">
               A SOLUCAO{" "}
               <span className="text-white">
@@ -46,27 +46,15 @@ export function HeroSection() {
           </div>
 
           {/* Hero Image */}
-          <div className="relative hidden md:block">
-            <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden">
-              <Image
-                src="/images/hero-bg.jpg"
-                alt="Equipe PayPrint"
-                fill
-                className="object-cover"
-                priority
-              />
-              <div className="absolute inset-0 bg-gradient-to-r from-[#0a0a2e]/60 to-transparent" />
-            </div>
-            {/* Dot decoration */}
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 opacity-30">
-              <div
-                className="w-full h-full"
-                style={{
-                  backgroundImage: "radial-gradient(circle, #2962ff 2px, transparent 2px)",
-                  backgroundSize: "10px 10px",
-                }}
-              />
-            </div>
+          <div className="relative hidden md:flex justify-end items-end self-end -mr-4 lg:-mr-8">
+            <Image
+              src="/images/hero-people.png"
+              alt="Equipe profissional PayPrint"
+              width={600}
+              height={500}
+              className="object-contain object-right-bottom max-h-[480px] w-auto"
+              priority
+            />
           </div>
         </div>
       </div>
