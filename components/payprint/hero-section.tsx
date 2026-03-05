@@ -6,10 +6,10 @@ export function HeroSection() {
     <section className="relative bg-[#0a0a2e] overflow-hidden">
       {/* Background pattern image */}
       <Image
-        src="/images/hero-pattern.png"
+        src="/images/hero-bg-new.png"
         alt=""
         fill
-        className="object-cover opacity-60"
+        className="object-cover"
         priority
       />
 
