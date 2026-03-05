@@ -13,7 +13,7 @@ export function Navbar() {
         <a href="#" className="flex items-center">
           <Image
             src="/images/payprint-logo.png"
-            alt="PayPrint - Grafica para Franquias"
+            alt="PayPrint - Gráfica para Franquias"
             width={180}
             height={48}
             className="h-10 w-auto"

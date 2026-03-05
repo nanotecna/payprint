@@ -57,7 +57,7 @@ const services = [
     ),
   },
   {
-    title: "Comunicacao Visual",
+    title: "Comunicação Visual",
     icon: (
       <svg viewBox="0 0 48 48" className="h-12 w-12" aria-hidden="true">
         <rect x="8" y="10" width="32" height="20" rx="2" fill="none" stroke="white" strokeWidth="2" />
@@ -76,7 +76,7 @@ export function ServicesSection() {
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-[#1a237e] mb-3">O Que Fazemos</h2>
         <p className="text-[#0a0a2e] mb-12 text-base">
-          Tudo o que a sua franquia precisa, em um so parceiro
+          Tudo o que a sua franquia precisa, em um só parceiro
         </p>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 mb-12">

@@ -18,7 +18,7 @@ export function HeroSection() {
           {/* Text Content */}
           <div className="text-white py-16 pr-4">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight text-balance">
-              A SOLUCAO{" "}
+              A SOLUÇÃO{" "}
               <span className="text-white">
                 COMPLETA PARA
                 <br />
@@ -26,7 +26,7 @@ export function HeroSection() {
               </span>
             </h1>
             <p className="mt-4 text-base sm:text-lg text-blue-100 leading-relaxed max-w-lg">
-              Padronize, personalize e abasteca todas as unidades da sua rede com agilidade, controle e qualidade — tudo em um so lugar.
+              Padronize, personalize e abasteça todas as unidades da sua rede com agilidade, controle e qualidade — tudo em um só lugar.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
@@ -40,7 +40,7 @@ export function HeroSection() {
                 href="#o-que-fazemos"
                 className="inline-flex items-center justify-center text-sm text-white underline underline-offset-4 hover:text-blue-200 transition-colors"
               >
-                ou Conheca a Plataforma
+                ou Conheça a Plataforma
               </a>
             </div>
           </div>

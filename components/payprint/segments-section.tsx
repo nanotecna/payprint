@@ -3,12 +3,12 @@ import { ChevronRight } from "lucide-react"
 
 const segments = [
   { name: "Medicina", image: "/images/medicina.jpg" },
-  { name: "Estetica", image: "/images/estetica.jpg" },
+  { name: "Estética", image: "/images/estetica.jpg" },
   { name: "Odontologia", image: "/images/odontologia.jpg" },
   { name: "Moda", image: "/images/moda.jpg" },
   { name: "Embalagens e Delivery", image: "/images/embalagens.jpg" },
-  { name: "Servicos", image: "/images/servicos.jpg" },
-  { name: "Saude, Beleza e Bem-estar", image: "/images/saude-beleza.jpg" },
+  { name: "Serviços", image: "/images/servicos.jpg" },
+  { name: "Saúde, Beleza e Bem-estar", image: "/images/saude-beleza.jpg" },
 ]
 
 export function SegmentsSection() {
@@ -44,7 +44,7 @@ export function SegmentsSection() {
           href="#contato"
           className="inline-flex items-center gap-2 border-2 border-[#0a0a2e] text-[#0a0a2e] font-bold px-6 py-3 rounded-[40px] text-sm hover:bg-[#0a0a2e] hover:text-white transition-colors"
         >
-          SAIBA QUEM SAO NOSSOS PARCEIROS
+          SAIBA QUEM SÃO NOSSOS PARCEIROS
           <ChevronRight className="h-4 w-4" />
         </a>
       </div>

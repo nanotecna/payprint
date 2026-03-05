@@ -22,10 +22,10 @@ export function ContactSection() {
     <section id="contato" className="py-20 bg-white">
       <div className="max-w-xl mx-auto px-4 text-center">
         <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a0a2e] mb-2 text-balance">
-          Padronize. <span className="text-[#2962ff] italic">Economize.</span> Cresca.
+          Padronize. <span className="text-[#2962ff] italic">Economize.</span> Cresça.
         </h2>
         <p className="text-sm text-[#0a0a2e] mb-8 leading-relaxed max-w-md mx-auto">
-          A PayPrint conecta eficiencia, controle e identidade de marca em uma plataforma feita sob medida para redes de franquias.
+          A PayPrint conecta eficiência, controle e identidade de marca em uma plataforma feita sob medida para redes de franquias.
         </p>
 
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 mb-6">

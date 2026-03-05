@@ -20,11 +20,11 @@ export function Footer() {
                 Print
               </text>
               <text x="38" y="32" fill="#94a3b8" fontSize="7" fontFamily="sans-serif">
-                {'grafica para franquias'}
+                {'gráfica para franquias'}
               </text>
             </svg>
             <p className="text-sm text-blue-200 leading-relaxed max-w-xs">
-              A solucao completa para redes de franquias. Padronizacao, qualidade e logistica inteligente.
+              A solução completa para redes de franquias. Padronização, qualidade e logística inteligente.
             </p>
           </div>
 

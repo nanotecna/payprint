@@ -20,29 +20,29 @@ export function FeaturesSection() {
               Como Facilitamos
             </h3>
             <h4 className="font-bold text-[#0a0a2e] text-base mb-2">
-              Gestao simplificada, resultado ampliado
+              Gestão simplificada, resultado ampliado
             </h4>
             <p className="text-sm text-[#0a0a2e] leading-relaxed mb-4">
-              Nossa plataforma exclusiva reune todos os materiais homologados pela franqueadora. O franqueado faz pedidos com poucos cliques e acompanha tudo em tempo real.
+              Nossa plataforma exclusiva reúne todos os materiais homologados pela franqueadora. O franqueado faz pedidos com poucos cliques e acompanha tudo em tempo real.
             </p>
             <a
               href="#"
               className="text-sm text-[#2962ff] underline underline-offset-4 font-semibold hover:text-[#1a237e] transition-colors"
             >
-              Conheca a area exclusiva para franqueados
+              Conheça a área exclusiva para franqueados
             </a>
           </div>
 
           {/* Beneficios */}
           <div className="text-right">
             <h3 className="text-[#2962ff] font-bold text-lg underline underline-offset-4 mb-3">
-              Beneficios
+              Benefícios
             </h3>
             <h4 className="font-bold text-[#0a0a2e] text-base mb-2">
               Para Franqueadora e Franqueado
             </h4>
             <p className="text-sm text-[#0a0a2e] leading-relaxed mb-4">
-              Padronizacao, controle de custos, melhoria nos resultados, loja exclusiva, compra assistida e logistica inteligente.
+              Padronização, controle de custos, melhoria nos resultados, loja exclusiva, compra assistida e logística inteligente.
             </p>
             <a
               href="#contato"

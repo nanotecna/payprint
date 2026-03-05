@@ -16,7 +16,7 @@ export function AboutSection() {
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a0a2e] mb-6">Quem Somos</h2>
             <p className="text-[#0a0a2e] leading-relaxed text-base">
-              Em 2024, a fusao entre a <strong>Compre Store</strong> e a <strong>PayPrint</strong> criou uma nova referencia em solucoes graficas para franquias. Especialistas em padronizacao e logistica inteligente, simplificamos o processo de compra e reposicao de materiais, garantindo a mesma excelencia em cada unidade da rede.
+              Em 2024, a fusão entre a <strong>Compre Store</strong> e a <strong>PayPrint</strong> criou uma nova referência em soluções gráficas para franquias. Especialistas em padronização e logística inteligente, simplificamos o processo de compra e reposição de materiais, garantindo a mesma excelência em cada unidade da rede.
             </p>
           </div>
 
@@ -30,10 +30,10 @@ export function AboutSection() {
                 SUA FRANQUIA,
               </p>
               <p className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#0a0a2e] leading-tight">
-                NOSSO PADRAO
+                NOSSO PADRÃO
               </p>
               <p className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#0a0a2e]/30 leading-tight">
-                NOSSO PADRAO
+                NOSSO PADRÃO
               </p>
             </div>
           </div>

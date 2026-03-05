@@ -6,9 +6,9 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 
 export const metadata: Metadata = {
-  title: 'PayPrint | A Solucao Completa para Redes de Franquias',
+  title: 'PayPrint | A Solução Completa para Redes de Franquias',
   description:
-    'Padronize, personalize e abasteca todas as unidades da sua rede com agilidade, controle e qualidade. Solucoes graficas para franquias.',
+    'Padronize, personalize e abasteça todas as unidades da sua rede com agilidade, controle e qualidade. Soluções gráficas para franquias.',
 }
 
 export const viewport: Viewport = {
