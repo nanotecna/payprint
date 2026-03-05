@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 
 export function Navbar() {
@@ -9,8 +10,15 @@ export function Navbar() {
   return (
     <nav className="bg-white sticky top-0 z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
-        <a href="#" className="flex items-center gap-2">
-          <PayPrintLogo />
+        <a href="#" className="flex items-center">
+          <Image
+            src="/images/payprint-logo.png"
+            alt="PayPrint - Grafica para Franquias"
+            width={180}
+            height={48}
+            className="h-10 w-auto"
+            priority
+          />
         </a>
 
         {/* Desktop Nav */}
@@ -71,26 +79,5 @@ export function Navbar() {
         </div>
       )}
     </nav>
-  )
-}
-
-function PayPrintLogo() {
-  return (
-    <svg viewBox="0 0 180 40" className="h-8 w-auto" aria-label="PayPrint">
-      <rect x="0" y="4" width="32" height="32" rx="6" fill="#1a237e" />
-      <text x="7" y="28" fill="white" fontWeight="bold" fontSize="22" fontFamily="sans-serif">
-        P
-      </text>
-      <circle cx="24" cy="12" r="4" fill="#2962ff" />
-      <text x="38" y="19" fill="#1a237e" fontWeight="800" fontSize="16" fontFamily="sans-serif">
-        Pay
-      </text>
-      <text x="68" y="19" fill="#2962ff" fontWeight="800" fontSize="16" fontFamily="sans-serif">
-        Print
-      </text>
-      <text x="38" y="32" fill="#64748b" fontSize="7" fontFamily="sans-serif">
-        {'grafica para franquias'}
-      </text>
-    </svg>
   )
 }
