@@ -6,7 +6,7 @@ export function HeroSection() {
     <section className="relative bg-[#0a0a2e] overflow-hidden">
       {/* Background pattern image */}
       <Image
-        src="/images/hero-bg-new.png"
+        src="/images/image.png"
         alt=""
         fill
         className="object-cover"
@@ -46,13 +46,14 @@ export function HeroSection() {
           </div>
 
           {/* Hero Image */}
-          <div className="relative hidden md:flex justify-end items-end self-end -mr-4 lg:-mr-8">
+          <div className="relative hidden md:flex justify-end items-end self-end -mr-8 lg:-mr-16">
             <Image
-              src="/images/hero-people.png"
+              src="/images/image copy.png"
               alt="Equipe profissional PayPrint"
-              width={600}
-              height={500}
-              className="object-contain object-right-bottom max-h-[480px] w-auto"
+              width={0}
+              height={0}
+              sizes="100vw"
+              className="object-contain object-right-bottom w-[750px] lg:w-[950px] h-auto"
               priority
             />
           </div>
