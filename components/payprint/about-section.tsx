@@ -40,7 +40,7 @@ export function AboutSection() {
                 Mais do que um fornecedor, somos um parceiro estratégico que fortalece a marca, reduz custos e impulsiona o crescimento das redes de franquia.
               </p>
             </div>
-
+        </div>
           {/* Right - Large text */}
           <div className="text-right">
             <div className="space-y-1">
