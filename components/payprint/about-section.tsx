@@ -14,32 +14,32 @@ export function AboutSection() {
                 <circle cx="45" cy="18" r="4" fill="#2962ff" />
               </svg>
            </div>
-            <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a0a2e] mb-6">Quem Somos</h2>
-            <div className="text-[#0a0a2e] leading-relaxed text-base space-y-4">
-              <p>
-                A PayPrint é especializada em padronização de suprimentos gráficos, comunicação visual e brindes para redes de franquias.
-              </p>
+              <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a0a2e] mb-6">Quem Somos</h2>
+              <div className="text-[#0a0a2e] leading-relaxed text-base space-y-4">
+                <p>
+                  A <strong>PayPrint</strong> é especializada em <strong>padronização de suprimentos gráficos, comunicação visual e brindes</strong> para redes de franquias.
+                </p>
 
-              <p>
-                Surgimos com o propósito de resolver um dos principais desafios das franqueadoras: garantir a consistência da identidade visual em todas as unidades da rede.
-              </p>
+                <p>
+                  Surgimos com o propósito de <strong>resolver um dos principais desafios das franqueadoras</strong>: garantir a <strong>consistência da identidade visual</strong> em todas as unidades da rede.
+                </p>
 
-              <p>
-                Hoje, contamos com uma estrutura sólida e uma plataforma própria desenvolvida para franquias, atendendo mais de 40 redes, mais de 8.000 franqueados e realizando entregas em milhares de cidades pelo Brasil.
-              </p>
+                <p>
+                  Hoje, contamos com uma <strong>estrutura sólida</strong> e uma <strong>plataforma própria</strong> desenvolvida para franquias, atendendo <strong>mais de 40 redes</strong>, <strong>mais de 8.000 franqueados</strong> e realizando entregas em <strong>milhares de cidades pelo Brasil</strong>.
+                </p>
 
-              <p>
-                Oferecemos uma solução completa, que vai do gerenciamento centralizado dos materiais até a entrega direta nas unidades, com controle, agilidade e qualidade.
-              </p>
+                <p>
+                  Oferecemos uma <strong>solução completa</strong>, que vai do <strong>gerenciamento centralizado</strong> dos materiais até a <strong>entrega direta nas unidades</strong>, com controle, agilidade e qualidade.
+                </p>
 
-              <p>
-                Nossa plataforma permite que franqueados acessem uma loja exclusiva com materiais aprovados e prontos para uso, reduzindo erros, retrabalho e sobrecarga operacional.
-              </p>
+                <p>
+                  Nossa plataforma permite que franqueados acessem uma <strong>loja exclusiva</strong> com <strong>materiais aprovados e prontos para uso</strong>, reduzindo erros, retrabalho e sobrecarga operacional.
+                </p>
 
-              <p>
-                Mais do que um fornecedor, somos um parceiro estratégico que fortalece a marca, reduz custos e impulsiona o crescimento das redes de franquia.
-              </p>
-            </div>
+                <p>
+                  Mais do que um fornecedor, somos um <strong>parceiro estratégico</strong> que <strong>fortalece a marca</strong>, <strong>reduz custos</strong> e <strong>impulsiona o crescimento</strong> das redes de franquia.
+                </p>
+              </div>
         </div>
           {/* Right - Large text */}
           <div className="text-right">
