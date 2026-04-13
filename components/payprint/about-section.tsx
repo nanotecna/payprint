@@ -17,7 +17,7 @@ export function AboutSection() {
               <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a0a2e] mb-6">Quem Somos</h2>
               <div className="text-[#0a0a2e] leading-relaxed text-base space-y-4">
                 <p>
-                  A PayPrint é uma empresa especializada em padronização de suprimentos gráficos, comunicação visual e brindes para redes de franquias.
+                  A </strong>PayPrint</strong> é uma empresa especializada em padronização de suprimentos gráficos, comunicação visual e brindes para redes de franquias.
                 </p>
 
                 <p>
