@@ -16,7 +16,18 @@ export function AboutSection() {
             </div>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-[#0a0a2e] mb-6">Quem Somos</h2>
             <p className="text-[#0a0a2e] leading-relaxed text-base">
-              Em 2024, a fusão entre a <strong>Compre Store</strong> e a <strong>PayPrint</strong> criou uma nova referência em soluções gráficas para franquias. Especialistas em padronização e logística inteligente, simplificamos o processo de compra e reposição de materiais, garantindo a mesma excelência em cada unidade da rede.
+              A PayPrint é uma empresa especializada em padronização de suprimentos gráficos, comunicação visual e brindes para redes de franquias.
+
+Nascemos com um propósito claro: resolver um dos maiores desafios das franqueadoras brasileiras — garantir que a identidade visual da rede esteja presente, de forma consistente e padronizada, em cada uma de suas unidades.
+
+Ao longo da nossa trajetória, construímos uma estrutura sólida e uma plataforma própria desenvolvida exclusivamente para o universo das franquias. Hoje, atendemos mais de 40 redes de franquias, servimos mais de 8.000 franqueados e realizamos entregas em mais de 2.500 cidades em todo o Brasil — números que refletem a confiança que o mercado deposita em nosso trabalho.
+
+Entendemos que a comunicação visual de uma rede vai muito além da estética. Ela representa a força da marca, a experiência do consumidor e a credibilidade do negócio. Por isso, oferecemos às franqueadoras uma solução completa: do gerenciamento centralizado dos materiais de comunicação até a entrega direta em cada unidade franqueada, com controle, agilidade e qualidade garantidos.
+
+Nossa plataforma permite que cada franqueado acesse, de forma segura e restrita, uma loja exclusiva da sua rede — com materiais já aprovados, personalizados pelo time de marketing da franqueadora e prontos para uso. Isso significa menos sobrecarga para o time central, menos erros de padronização e mais tempo para o que realmente importa: estratégia e crescimento.
+
+Para as franqueadoras, somos muito mais do que um fornecedor gráfico. Somos um parceiro estratégico que contribui diretamente para a redução de custos operacionais, para o fortalecimento da marca em toda a rede e para a facilitação do processo de venda de novas franquias.
+Na PayPrint, acreditamos que uma rede bem comunicada cresce com mais consistência, vende com mais facilidade e retém franqueados com mais eficiência. É com esse propósito que trabalhamos todos os dias.
             </p>
           </div>
 
